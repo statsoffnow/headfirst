@@ -9,10 +9,14 @@ print "What's your name? "
 
 input = gets
 
-puts "Welcome #{input}"
+#puts "Welcome #{input}!"
+=begin
+puts input.inspect #inspect the element
 
+p input # p --> puts + inspect element
+=end
 
+name = input.chomp
 
-name = "Jim"
+puts "Welcome #{name}!"
 
-puts "hello #{name}"
