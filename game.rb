@@ -16,5 +16,3 @@ puts "Welcome #{input}"
 name = "Jim"
 
 puts "hello #{name}"
-
-print "hello again"
