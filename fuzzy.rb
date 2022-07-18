@@ -36,8 +36,28 @@ move("cat", "Smudge", "house")
 report_age("Tim", 6)
 
 =begin
-To add many more animals it would be easier to add classes and objects, instead of building infinite if..else.. loops.
+To add many more animals it would be easier to add classes and objects, 
+instead of building infinite if..else.. loops.
 =end
 
+#We're going to create a class for DOGs.
+#A class name must begin with a CAPITAL letter (!!!)
+
+class Dog
+    def talk
+        puts "Bark!"
+    end
+
+    def move(destination)
+        puts "Running to the #{destination}."
+    end
+end
+
+fido = Dog.new 
+rex = Dog.new
+
+fido.talk
+rex.move("home")
+fido.move("park")
 
 
